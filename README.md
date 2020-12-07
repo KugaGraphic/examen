@@ -1,4 +1,4 @@
-## Actualizaciones.
+# Pruebas-Infograf-a-Examen
 
-### 07 Diciembre:
-Se exportó la versión subida al repositorio "Examen_testeo_02" el 07 de diciembre. 
+Actualizado Inicio de la pagina. Deberia funcionar de forma responsiva para telefonos. 
+Agregado gif de pumita con mano (no tiene formato, la imagen quedó gigante). 
