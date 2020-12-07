@@ -1,5 +1,3 @@
-# examen
-
 ## Actualizaciones.
 
 ### 07 Diciembre:
