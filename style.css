@@ -124,27 +124,38 @@ div.text-slider {
 
 .texto_inicio_padre {
   width: 80%;
-  height: 40%;
+  height: 55%;
   margin: auto;
   overflow: hidden;
   position: absolute;
-  top: 85%;
+  top: 95%;
   left: 50%;
   transform: translate(-50%, -50%);
+
 }
 
 .texto_inicio_hijo_1 {
-  height: 50&;
+  height: 10&;
   width: auto;
   align-content: center;
   text-align: center;
+
 }
 
 .texto_inicio_hijo_2 {
-  height: 50&;
+  height: 45&;
   width: auto;
   align-content: center;
   text-align: center;
+
+}
+
+.texto_inicio_hijo_3 {
+  height: 45&;
+  width: auto;
+  align-content: center;
+  text-align: center;
+
 }
 
 /* Aqui termina estilo inicio */
