@@ -4,11 +4,17 @@ Actualizado Inicio de la pagina. Deberia funcionar de forma responsiva para tele
 Agregado gif de pumita con mano (no tiene formato, la imagen quedó gigante). 
 
 
-###CRECIMIENTO URBANO
-- reordenar giff
-- Efecto hover
-- Cuadro  svg 1
-- Cuadro 2
+###holii aca estoy marcando el progreso de mis tareas jojo
+
+CRECIMIENTO URBANO
+✓ reordenar información y dejar listo para pegar graficos y más
+X Agregar graficos
+
+REGULACIÓNDE URBANIZACIÓN
+X Crear grafico de hectareas y agregarlo
+X crear 4 columnas
+X Sumarle efecto hover
+
 
 
 
