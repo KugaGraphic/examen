@@ -7,13 +7,13 @@ Agregado gif de pumita con mano (no tiene formato, la imagen quedó gigante).
 ###holii aca estoy marcando el progreso de mis tareas jojo
 
 CRECIMIENTO URBANO
-✓ reordenar información y dejar listo para pegar graficos y más
-X Agregar graficos
+- ✓ reordenar información y dejar listo para pegar graficos y más
+- X Agregar graficos
 
 REGULACIÓNDE URBANIZACIÓN
-X Crear grafico de hectareas y agregarlo
-X crear 4 columnas
-X Sumarle efecto hover
+- X Crear grafico de hectareas y agregarlo
+- ✓ crear 4 columnas
+- X Sumarle efecto hover
 
 
 
