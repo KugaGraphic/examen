@@ -13,7 +13,7 @@ CRECIMIENTO URBANO
 REGULACIÓNDE URBANIZACIÓN
 - X Crear grafico de hectareas y agregarlo
 - ✓ crear 4 columnas
-- X Sumarle efecto hover
+- ✓ Sumarle efecto hover
 
 
 
