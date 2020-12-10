@@ -14,7 +14,8 @@ REGULACIÓNDE URBANIZACIÓN
 - X Crear grafico de hectareas y agregarlo
 - ✓ crear 4 columnas
 - ✓ Sumarle efecto hover
-
+DERECHOS EN CONSTITUCION
+- ✓ Efecto sticky
 
 
 
