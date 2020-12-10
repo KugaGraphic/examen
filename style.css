@@ -55,7 +55,9 @@ p{
 	h2{ font-size: 1em; }/* subtitulo*/
 	h3{ font-size: 1.5em; } /* titulos*/
 	h5{ font-size: 1.1em; }/*minitexto verde*/
-	p{ font-size: 1em; }
+	p{ font-size: 1em;
+     margin-right:5vw;
+     margin-left: 5vw; }
 }
 
 p.info{
@@ -306,6 +308,23 @@ section{
      background-attachment: fixed;
      background-repeat: repeat;
 }
+/* INICIO efecto hover */
+.hover:hover .overlay {
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+/* FIN efecto hover */
 
 
 /* Estilo gif pumas constitución */
