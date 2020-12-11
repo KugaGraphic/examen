@@ -8,71 +8,64 @@ body { /* Este código afecta a toda la web. Al quitarlo se borra el inicio */
     background: #a1cca1;
 }
 
-      /*ESTILOS TEXTOS*/
-      h1 {/*Titulo inicio*/
-      	font-family:"Bitter", serif;
-      	font-weight: 700;
-      	font-size:2.5em;
-      	text-align: center;
-      	color:white;
+/*ESTILOS TEXTOS*/
+h1 {/*Titulo inicio*/
+  font-family:"Bitter", serif;
+  font-weight: 700;
+  font-size:2.5em;
+  text-align: center;
+  color:white;
+}
+
+h2{/*Subtitulo inicio*/
+  font-weight: 300;
+  font-size:1.3em;
+  text-align: center;
+  color:white;
+}
+
+h3 {/* titulos*/
+  font-family: "Roboto", serif;
+  font-weight: 550;
+  font-size:1.6em;
+  text-align: center;
+  color:white;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size:1.2rem;
+  color:white;
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size:1.2em;
+  text-align: center;
+  color:white;
       }
 
-      h2{/*Subtitulo inicio*/
-      	font-weight: 300;
-      	font-size:1.3em;
-      	text-align: center;
-      	color:white;
-      }
-
-      h3 {/* titulos*/
-      	font-family: "Roboto", serif;
-      	font-weight: 550;
-      	font-size:1.6em;
-      	text-align: center;
-        color:white;
-        }
-
-      h4 {
-      	font-family: "Roboto", sans-serif;
-      	font-weight: 300;
-      	font-size:1.2rem;
-        color:white;
-      }
-
-      h5 {
-      	font-family: "Roboto", sans-serif;
-      	font-weight: bold;
-      	font-size:1.2em;
-      	text-align: center;
-        color:white;
-      }
-
-      p{
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size:1.3em;
-        color: #888;
-        margin-right: 10px;
-        margin-left: 10px;
-        color:white;
+p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size:1.3em;
+  color: #888;
+  margin-right: 10px;
+  margin-left: 10px;
+  color:white;
     }
 
 @media only screen and (max-device-width: 576px) {
-	h1{ font-size: 3em; }/* TITULO*/
+	h1{ font-size: 2.2em; }/* TITULO*/
 	h2{ font-size: 1em; }/* subtitulo*/
 	h3{ font-size: 1.5em; } /* titulos*/
+  h4{ font-size: 1em }
 	h5{ font-size: 1.1em; }/*minitexto verde*/
 	p{ font-size: 1em;
      margin-right:5vw;
      margin-left: 5vw; }
-}
-
-p.info{
-	font-weight: 200;
-	font-size:1em;
-	text-align: center;
-	margin-right: 0px;
-  margin-left: 0px;
 }
 
 p.fuente{
@@ -87,80 +80,76 @@ div.col-12 img{
 
 
 /* Aqui comienza estilo inicio */
-      * {
-          margin: 0;
-          padding: 0;
-      }
+* {
+  margin: 0;
+  padding: 0;
+}
 
+header#slider {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
 
+div#content-images-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
-      header#slider {
-          width: 100%;
-          height: 100%;
-          position: relative;
-          overflow: hidden;
-      }
+div.image-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
 
-      div#content-images-slider {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-      }
+div.text-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
-      div.image-slider {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-repeat: no-repeat;
-          background-position: bottom center;
-          background-size: cover;
-      }
+.texto_inicio_padre {
+  width: 80%;
+  height: 55%;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-      div.text-slider {
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-      }
+.texto_inicio_hijo_1 {
+  height: 10&;
+  width: auto;
+  align-content: center;
+  text-align: center;
+}
 
-      .texto_inicio_padre {
-          width: 80%;
-          height: 55%;
-          margin: auto;
-          overflow: hidden;
-          position: absolute;
-          top: 95%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-      }
+.texto_inicio_hijo_2 {
+  height: 45&;
+  width: auto;
+  align-content: center;
+  text-align: center;
+}
 
-      .texto_inicio_hijo_1 {
-          height: 10&;
-          width: auto;
-          align-content: center;
-          text-align: center;
-      }
-
-      .texto_inicio_hijo_2 {
-          height: 45&;
-          width: auto;
-          align-content: center;
-          text-align: center;
-      }
-
-      .texto_inicio_hijo_3 {
-          height: 45&;
-          width: auto;
-          align-content: center;
-          text-align: center;
-      }
-
-
+  .texto_inicio_hijo_3 {
+  height: 45&;
+  width: auto;
+  align-content: center;
+  text-align: center;
+}
 /* Aqui termina estilo inicio */
 
 
@@ -185,24 +174,12 @@ div.col-12 img{
 	width:90vw;
 	height:60vh;
 }
-.cuadrado{
-	height:10vh;
-	width: auto;
-	background:#428bca;
-	border:3px solid #555;
-}
 .scroll{
   width: 40vw;
   height: 15vh;
   overflow: scroll;
 }
 
-.esconder {
-   	display: none;
- }
-#bloque {
- 	background-image: url("img/montaña.png");
- }
 header{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
