@@ -5,54 +5,54 @@ html, body { /* Este código afecta a toda la web. Al quitarlo se borra el inici
     font-weight: 300;
 }
 
-  /*ESTILOS TEXTOS*/
-  h1 {/*Titulo inicio*/
-  	font-family:"Bitter", serif;
-  	font-weight: 700;
-  	font-size:2.5em;
-  	text-align: center;
-  	color:white;
-  }
+      /*ESTILOS TEXTOS*/
+      h1 {/*Titulo inicio*/
+      	font-family:"Bitter", serif;
+      	font-weight: 700;
+      	font-size:2.5em;
+      	text-align: center;
+      	color:white;
+      }
 
-  h2{/*Subtitulo inicio*/
-  	font-weight: 300;
-  	font-size:1.3em;
-  	text-align: center;
-  	color:white;
-  }
+      h2{/*Subtitulo inicio*/
+      	font-weight: 300;
+      	font-size:1.3em;
+      	text-align: center;
+      	color:white;
+      }
 
-  h3 {/* titulos*/
-  	font-family: "Roboto", serif;
-  	font-weight: 550;
-  	font-size:1.6em;
-  	text-align: center;
-    color:white;
+      h3 {/* titulos*/
+      	font-family: "Roboto", serif;
+      	font-weight: 550;
+      	font-size:1.6em;
+      	text-align: center;
+        color:white;
+        }
+
+      h4 {
+      	font-family: "Roboto", sans-serif;
+      	font-weight: 300;
+      	font-size:1.2rem;
+        color:white;
+      }
+
+      h5 {
+      	font-family: "Roboto", sans-serif;
+      	font-weight: bold;
+      	font-size:1.2em;
+      	text-align: center;
+        color:white;
+      }
+
+      p{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size:1.3em;
+        color: #888;
+        margin-right: 10px;
+        margin-left: 10px;
+        color:white;
     }
-
-  h4 {
-  	font-family: "Roboto", sans-serif;
-  	font-weight: 300;
-  	font-size:1.2rem;
-    color:white;
-  }
-
-  h5 {
-  	font-family: "Roboto", sans-serif;
-  	font-weight: bold;
-  	font-size:1.2em;
-  	text-align: center;
-    color:white;
-  }
-
-  p{
-      font-family: "Roboto", sans-serif;
-      font-weight: 500;
-      font-size:1.3em;
-      color: #888;
-      margin-right: 10px;
-      margin-left: 10px;
-      color:white;
-}
 
 @media only screen and (max-device-width: 576px) {
 	h1{ font-size: 3em; }/* TITULO*/
@@ -69,13 +69,13 @@ p.info{
 	font-size:1em;
 	text-align: center;
 	margin-right: 0px;
-    margin-left: 0px;
+  margin-left: 0px;
 }
 
 p.fuente{
   color:red;
 }
-        
+
 div.col-12 img{
 	width:100%;
 	height:auto;
@@ -84,83 +84,79 @@ div.col-12 img{
 
 
 /* Aqui comienza estilo inicio */
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Work Sans', sans-serif;
-}
+      * {
+          margin: 0;
+          padding: 0;
+      }
 
 
 
-section#slider {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-}
+      section#slider {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          overflow: hidden;
+      }
 
-div#content-images-slider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+      div#content-images-slider {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+      }
 
-div.image-slider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: cover;
-}
+      div.image-slider {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-repeat: no-repeat;
+          background-position: bottom center;
+          background-size: cover;
+      }
 
-div.text-slider {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+      div.text-slider {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+      }
 
-.texto_inicio_padre {
-  width: 80%;
-  height: 55%;
-  margin: auto;
-  overflow: hidden;
-  position: absolute;
-  top: 95%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+      .texto_inicio_padre {
+          width: 80%;
+          height: 55%;
+          margin: auto;
+          overflow: hidden;
+          position: absolute;
+          top: 95%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+      }
 
-}
+      .texto_inicio_hijo_1 {
+          height: 10&;
+          width: auto;
+          align-content: center;
+          text-align: center;
+      }
 
-.texto_inicio_hijo_1 {
-  height: 10&;
-  width: auto;
-  align-content: center;
-  text-align: center;
+      .texto_inicio_hijo_2 {
+          height: 45&;
+          width: auto;
+          align-content: center;
+          text-align: center;
+      }
 
-}
+      .texto_inicio_hijo_3 {
+          height: 45&;
+          width: auto;
+          align-content: center;
+          text-align: center;
+      }
 
-.texto_inicio_hijo_2 {
-  height: 45&;
-  width: auto;
-  align-content: center;
-  text-align: center;
-
-}
-
-.texto_inicio_hijo_3 {
-  height: 45&;
-  width: auto;
-  align-content: center;
-  text-align: center;
-
-}
 
 /* Aqui termina estilo inicio */
 
@@ -289,33 +285,10 @@ section{
 	width: 70%;
 	height:auto;
 }
-.imgcaracteristicas_web img{
-	display:block;
-  	margin:auto;
-	width: 50%;
-	height:auto;
-}
+
 .barraparallax {
      width:100%;
      height:8vh;
-     background:white;
-}
-
-/*.barra_grande {
-     width:100%;
-     height:200px;
-     background:blue;
-}*/
-
-.barra_mediana {
-     width:100%;
-     height:15vh;
-     background:white;
-}
-
-.barra_pequeña {
-     width:100%;
-     height:5vh;
      background:white;
 }
 
@@ -358,6 +331,7 @@ section{
       }
 /* FIN Gráficos */
 
+
 /* Estilo gif pumas constitución */
 .pumas_consti_web {
 width:auto;
@@ -367,43 +341,43 @@ height: 50%;
 
 /* Aqui comienzan estilos divs de pirulo y puma arbol */
 
-div.casos_derechos {
-  width: 100%;
-  height: auto;
-  margin: 0 0 1rem;
-  display: flex;
-  align-items: center;
-}
+      div.casos_derechos {
+        width: 100%;
+        height: auto;
+        margin: 0 0 1rem;
+        display: flex;
+        align-items: center;
+      }
 
-div.casos_derechos img.img_derechos {
-  width: 30%;
-  height:auto;
-  margin: 20px auto;
-}
+      div.casos_derechos img.img_derechos {
+        width: 30%;
+        height:auto;
+        margin: 20px auto;
+      }
 
-.img_derechos_cel {
-  width: 100%;
-  height:auto;
-  margin-top: 10%;
-  margin-bottom: 5%;
+      .img_derechos_cel {
+        width: 100%;
+        height:auto;
+        margin-top: 10%;
+        margin-bottom: 5%;
 
-}
+      }
 
-.hijo_derechos {
-  font-size: 0.8rem;
-  margin-right: 5%;
-  margin-left: 5%;
-  width: 70%;
-  height:auto;
-  padding: .2rem;
-}
+      .hijo_derechos {
+        font-size: 0.8rem;
+        margin-right: 5%;
+        margin-left: 5%;
+        width: 70%;
+        height:auto;
+        padding: .2rem;
+      }
 
-.hijo_derechos_cel {
-  font-size: 0.9rem;
-  margin-right: 5%;
-  margin-left: 5%;
-  padding: .2rem;
-}
+      .hijo_derechos_cel {
+        font-size: 0.9rem;
+        margin-right: 5%;
+        margin-left: 5%;
+        padding: .2rem;
+      }
 
 /* Aqui terminan estilos divs de pirulo y puma arbol */
 
@@ -417,6 +391,13 @@ div.casos_derechos img.img_derechos {
 
  	.barraparallax {
     display: none;
+  }
+#Background-noticias {
+height: auto;
+width: auto;
+background: -webkit-linear-gradient(#a1cca1, #c3eaf2);
+background: -moz-linear-gradient(#a1cca1, #c3eaf2);
+background: -o-linear-gradient(#a1cca1, #c3eaf2);
   }
 
 	#margentitulo{
