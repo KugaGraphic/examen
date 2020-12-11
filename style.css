@@ -72,6 +72,10 @@ p.info{
     margin-left: 0px;
 }
 
+p.fuente{
+  color:red;
+}
+        
 div.col-12 img{
 	width:100%;
 	height:auto;
@@ -187,6 +191,11 @@ div.text-slider {
 	width: auto;
 	background:#428bca;
 	border:3px solid #555;
+}
+.scroll{
+  width: 40vw;
+  height: 15vh;
+  overflow: scroll;
 }
 
 .esconder {
