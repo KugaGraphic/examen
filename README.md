@@ -24,8 +24,8 @@ INICIO
 - ✓ Agregar paraguas
 
 IMAGENES CARACTERISTICAS
-- X Teminar verisón web
-- X Teminar verisón web
+- ✓ Teminar verisón web
+- ✓ Teminar verisón web
 
 IMAGENES PARALLAX
 - X Redistribuir/redibujar imagenes
