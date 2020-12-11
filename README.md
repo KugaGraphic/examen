@@ -28,8 +28,8 @@ IMAGENES CARACTERISTICAS
 - ✓ Teminar verisón web
 
 IMAGENES PARALLAX
-- X Redistribuir/redibujar imagenes
+- ✓ Redistribuir/redibujar imagenes
 
 IMAGEN FINAL
-- X Unificar final pumita ausente (Esta con detalles). 
+- ✓ Unificar final pumita ausente (Esta con detalles). 
 
