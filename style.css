@@ -1,8 +1,11 @@
-html, body { /* Este código afecta a toda la web. Al quitarlo se borra el inicio */
+html, 
+body { /* Este código afecta a toda la web. Al quitarlo se borra el inicio */
     width: 100%;
     height: 100%;
     font-family:"Roboto", sans-serif;
     font-weight: 300;
+    color: white;
+    background: #a1cca1;
 }
 
       /*ESTILOS TEXTOS*/
@@ -91,7 +94,7 @@ div.col-12 img{
 
 
 
-      section#slider {
+      header#slider {
           width: 100%;
           height: 100%;
           position: relative;
@@ -200,7 +203,7 @@ div.col-12 img{
 #bloque {
  	background-image: url("img/montaña.png");
  }
-section{
+header{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100%;
