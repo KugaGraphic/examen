@@ -1,7 +1,6 @@
 # Pruebas-Infograf-a-Examen
 
-Actualizado Inicio de la pagina. Deberia funcionar de forma responsiva para telefonos. 
-Agregado gif de pumita con mano (no tiene formato, la imagen quedó gigante). 
+IMPORTANTE: Se eliminaron las barras que estabamos usando como margenes, sólo quedaron las que separan el parallax (están en color blanco). 
 
 
 ###holii aca estoy marcando el progreso de mis tareas jojo
