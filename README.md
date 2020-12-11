@@ -18,4 +18,19 @@ DERECHOS EN CONSTITUCION
 - ✓ Efecto sticky
 
 
+###karii te copie 
+
+INICIO
+- ✓ unificar con el resto de la pagina
+- ✓ Agregar paraguas
+
+IMAGENES CARACTERISTICAS
+- X Teminar verisón web
+- X Teminar verisón web
+
+IMAGENES PARALLAX
+- X Redistribuir/redibujar imagenes
+
+IMAGEN FINAL
+- X Unificar final pumita ausente (Esta con detalles). 
 
